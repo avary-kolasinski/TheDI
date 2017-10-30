@@ -1,9 +1,7 @@
 # TheDI
-Projects for The Data Incubator program (October 2017)
+This project is for The Data Incubator program (October 2017). The data analyzed was downloaded from the Substance Abuse and Mental Health Archive titled National Survey on Drug Use and Health 2015 (NSDUH-2015-DS0001). The following code is a Matlab function which generates  graphs to show the correlation between depression and the age of first drug use for 9 different drugs.  
 
-% The correlation between depression and age of first drug use
-
-function [k] = AgeVSHealth(j)
+function [ ] = AgeVSHealth
 
 Cig = [224, 3501, 411, 33, 5, 0, 0, 0, 4174, 1834; 763, 18549, 2884, 179, 33, 4, 2, 0, 22414, 14641];
 
@@ -113,6 +111,6 @@ k = find(isnan(v));
 
 v(1,k) = 0;
 
-v = v*100
+v = v*100;
 
 end
