@@ -45,11 +45,11 @@ plot([0:10:70],Cig(1,1:8), '-*c')
 
 axis([0 70 0  4500])
 
-title('The correlation between age of first drug use and depression')
+title('The correlation between age of first drug use and depression.')
 
 xlabel('Range of Age (0=0-9, 1=10-19, etc)')
 
-ylabel('Number of People Reported Depressed who Use Drugs')
+ylabel('Number of People Reported Depressed (who have used drugs)')
 
 hold on
 
@@ -75,11 +75,11 @@ plot([0:10:70],CigR(1,1:8), '-*c')
 
 axis([0 70 0  100])
 
-title('The correlation between age of first drug use and depression (relative)')
+title('The correlation between age of first drug use and depression (relative).')
 
 xlabel('Range of Age (0=0-9, 1=10-19, etc)')
 
-ylabel('Percent People Reported Depressed who Use Drugs')
+ylabel('Percent People Reported Depressed (who have used drugs)')
 
 hold on
 
